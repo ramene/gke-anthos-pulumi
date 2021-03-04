@@ -428,7 +428,7 @@ const serviceAccount = new k8s.core.v1.ServiceAccount("service-account", {
             "k8s-app": "config-management-operator"
         },
         name: "config-management-operator",
-        namespace: "kube-system"
+        namespace: "kube-system",
     }
 }, {
     provider: k8sProvider,
